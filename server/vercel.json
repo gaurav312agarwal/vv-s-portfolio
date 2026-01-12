@@ -4,15 +4,20 @@
     {
       "src": "server.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "data/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
+      "src": "/data/(.*)",
+      "dest": "/data/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/server.js"
     }
-  ],
-  "includeFiles": [
-    "data/**"
   ]
 }
