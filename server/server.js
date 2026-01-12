@@ -372,23 +372,26 @@ app.get('/api/content-branding', (req, res) => {
   res.json(contentBrandingData);
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  const os = require('os');
-  const interfaces = os.networkInterfaces();
-  let ipAddress = 'localhost';
-  
-  for (const name of Object.keys(interfaces)) {
-    for (const iface of interfaces[name]) {
-      if (iface.family === 'IPv4' && !iface.internal) {
-        ipAddress = iface.address;
-        break;
+// Only start server if not in Vercel environment
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+  app.listen(PORT, '0.0.0.0', () => {
+    const os = require('os');
+    const interfaces = os.networkInterfaces();
+    let ipAddress = 'localhost';
+    
+    for (const name of Object.keys(interfaces)) {
+      for (const iface of interfaces[name]) {
+        if (iface.family === 'IPv4' && !iface.internal) {
+          ipAddress = iface.address;
+          break;
+        }
       }
     }
-  }
-  
-  console.log(`Server running on http://${ipAddress}:${PORT}`);
-  console.log(`Server running on http://localhost:${PORT}`);
-});
+    
+    console.log(`Server running on http://${ipAddress}:${PORT}`);
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
+}
 
-// Export for Vercel
+// Export for Vercel serverless
 module.exports = app;
