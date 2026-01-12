@@ -35,3 +35,8 @@ dist-ssr
 __MACOSX
 .DS_Store
 Thumbs.db
+
+# Large media files
+server/data/cover_video.MP4
+server/data/*.MP4
+server/data/*.mp4
