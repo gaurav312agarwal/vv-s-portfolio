@@ -5,7 +5,7 @@ import ScriptsPage from './pages/ScriptsPage';
 import ShortFilmsPage from './pages/ShortFilmsPage';
 import ContentBrandingPage from './pages/ContentBrandingPage';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+const API_URL = 'https://vv-s-portfolio.vercel.app';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');

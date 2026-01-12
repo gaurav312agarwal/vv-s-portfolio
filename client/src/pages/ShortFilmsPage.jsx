@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+const API_URL = 'https://vv-s-portfolio.vercel.app';
 
 const ShortFilmsPage = ({ setCurrentPage }) => {
   const [films, setFilms] = useState([]);
