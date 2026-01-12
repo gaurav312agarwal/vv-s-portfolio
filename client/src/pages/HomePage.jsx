@@ -93,7 +93,7 @@ const HomePage = ({ data, setCurrentPage }) => {
           autoPlay 
           muted 
           loop
-          src={`${API_URL}/data/cover_video.MP4`}
+          src="https://res.cloudinary.com/dmftfmukb/video/upload/v1768219777/cover_video_uymgtr.mp4"
         ></video>
         <div className="absolute inset-0 bg-black/40"></div>
         <h1 className="text-5xl md:text-9xl font-serif mt-10 z-10 text-center tracking-tight animate-pulse opacity-85">CINEMA</h1>
