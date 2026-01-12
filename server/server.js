@@ -17,6 +17,21 @@ app.use(cors(corsOptions));
 app.use('/data', express.static(path.join(__dirname, 'data')));
 app.use('/images/scripts', express.static(path.join(__dirname, 'data/scripts')));
 
+// Root route for health check
+app.get('/', (req, res) => {
+  res.json({ 
+    status: 'ok', 
+    message: 'VV Portfolio API is running',
+    endpoints: [
+      '/api/portfolio',
+      '/api/blogs',
+      '/api/scripts',
+      '/api/short-films',
+      '/api/content-branding'
+    ]
+  });
+});
+
 // Data extracted from PDF
 const portfolioData = {
   header: {
