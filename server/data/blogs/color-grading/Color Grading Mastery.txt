@@ -1,0 +1,17 @@
+TITLE - COLOR GRADING MASTERY
+
+SUBTITLE - "Colors don't just fill frames, they tell stories"
+
+Color grading is the art of manipulating color in post-production to achieve a desired aesthetic, mood, and emotional response. While cinematography captures the initial visual information, color grading refines and transforms that footage into the filmmaker's artistic vision. It's the bridge between technical capture and emotional storytelling.
+
+Understanding color theory is fundamental to effective color grading. Complementary colors create visual tension and interest, analogous colors create harmony, and color saturation affects the emotional weight of a scene. A skilled colorist knows how to use these principles to guide the viewer's eye and emotional journey through the film.
+
+Different color grades evoke different emotional responses. Warm, saturated tones create feelings of comfort, nostalgia, and energy. Cool, desaturated tones suggest melancholy, tension, or isolation. A film noir aesthetic with high contrast and deep blacks creates mystery and drama. The colorist's choices directly influence how audiences emotionally interpret every scene.
+
+Contrast and saturation are powerful tools in a colorist's arsenal. Increasing contrast between highlights and shadows creates visual drama and draws attention to key elements. Managing saturation levels helps maintain color balance while preventing certain colors from overwhelming the frame. These decisions must be made shot-by-shot to ensure visual continuity throughout a sequence.
+
+The technical aspects of color grading involve understanding color spaces, gamma curves, and LUTs (Look-Up Tables). Modern color grading software like DaVinci Resolve provides sophisticated tools for precise color manipulation. However, technical knowledge alone doesn't make a great colorist; it's the artistic sensibility combined with technical skill that creates stunning results.
+
+Color consistency across scenes is crucial for maintaining visual continuity. A colorist must ensure that color transitions between shots feel natural while also accounting for different lighting conditions and camera settings used during production. This meticulous attention to detail ensures audiences remain immersed in the story.
+
+The best color grades are often invisible—they support the narrative without drawing attention to themselves. A colorist's work is most successful when viewers feel the emotional impact of the color choices without consciously noticing them. This subtle artistry is what separates good color grading from exceptional color grading.
